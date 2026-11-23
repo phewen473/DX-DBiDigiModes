@@ -70,7 +70,12 @@ with a `DX-DBi` comment.
 | `widgets/about.cpp`, `widgets/SplashScreen.cpp` | About box and splash screen |
 | `CMakeLists.txt` | build name and version (`DXDBI_NAME`, `DXDBI_VERSION`) |
 | `setup_msys2_build.sh` | one-time build environment setup for Windows |
-| `README-WSJT-X.md` | the original WSJT-X README |
+| `README-WSJT-X.md`, `INSTALL-WSJT-X.txt` | the original WSJT-X README and build notes |
+| `install/` | the Windows installer |
+
+## How to install (Windows)
+Run the installer in the [install](install) folder:
+`install/DX-DBiDigiModes-V2R3-3.0.2-devel-win64.exe`. See [install/README.md](install/README.md).
 
 ## How to build (Windows, MSYS2)
 1. Install [MSYS2](https://www.msys2.org/) and open the **MSYS2 MINGW64** shell.
